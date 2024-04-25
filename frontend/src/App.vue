@@ -1,10 +1,14 @@
 <script setup>
+import OpenBrowser from './components/OpenBrowser.vue'
 import HelloWorld from './components/HelloWorld.vue'</script>
 
 <template>
   <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
   <HelloWorld/>
+  <img id="logo" alt="Wails logo" src="./assets/images/img.png"/>
+  <OpenBrowser/>
 </template>
+
 
 <style>
 #logo {
